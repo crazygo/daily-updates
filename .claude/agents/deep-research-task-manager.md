@@ -1,25 +1,26 @@
 ---
 name: deep-research-task-manager
-description: Use this agent when you need to execute complex deep research tasks that require systematic breakdown and management of multiple subtasks. This agent is designed for comprehensive research projects that need to be decomposed into manageable components, executed systematically, and then synthesized into a final comprehensive result.
+description: |
+  Use this agent when you need to execute complex deep research tasks that require systematic breakdown and management of multiple subtasks. This agent is designed for comprehensive research projects that need to be decomposed into manageable components, executed systematically, and then synthesized into a final comprehensive result.
 
-Examples:
-<example>
-Context: User wants to conduct deep research on a complex topic like "AI safety frameworks" that requires multiple research components.
-user: "I need to conduct deep research on AI safety frameworks across different organizations"
-assistant: "I'll use the deep-research-task-manager agent to systematically break down and execute this comprehensive research task."
-<commentary>
-Since this is a complex research task requiring multiple subtasks, use the deep-research-task-manager agent to create workspace, break down the task, and manage subtask execution.
-</commentary>
-</example>
+  Examples:
+  <example>
+  Context: User wants to conduct deep research on a complex topic like "AI safety frameworks" that requires multiple research components.
+  user: "I need to conduct deep research on AI safety frameworks across different organizations"
+  assistant: "I'll use the deep-research-task-manager agent to systematically break down and execute this comprehensive research task."
+  <commentary>
+  Since this is a complex research task requiring multiple subtasks, use the deep-research-task-manager agent to create workspace, break down the task, and manage subtask execution.
+  </commentary>
+  </example>
 
-<example>
-Context: User has a research task that needs to be broken down into components like literature review, case studies, and analysis.
-user: "Research the impact of remote work on employee productivity across different industries"
-assistant: "I'll launch the deep-research-task-manager agent to handle this comprehensive research project by breaking it down into systematic subtasks."
-<commentary>
-This is a perfect use case for the deep-research-task-manager as it requires multiple research components that need to be managed and synthesized.
-</commentary>
-</example>
+  <example>
+  Context: User has a research task that needs to be broken down into components like literature review, case studies, and analysis.
+  user: "Research the impact of remote work on employee productivity across different industries"
+  assistant: "I'll launch the deep-research-task-manager agent to handle this comprehensive research project by breaking it down into systematic subtasks."
+  <commentary>
+  This is a perfect use case for the deep-research-task-manager as it requires multiple research components that need to be managed and synthesized.
+  </commentary>
+  </example>
 model: inherit
 color: blue
 ---
